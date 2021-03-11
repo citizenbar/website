@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+/**********************************************
+                HEADER Background
+**********************************************/
+
+.header {
+    background-color: #111;
+    color: #f2df9f; 
+    text-align: center;
+    height: 100px;
+
+    border-bottom: 1px solid #f2df9f;
+}
+
+/**********************************************
+                HEADER Logo
+**********************************************/
+
+.logo__placeholder {
+    /* padding: 0 1px; */
+}
+.logo__citizen {
+    position: absolute;
+    top:20px;
+	left: 0;
+	right: 0;
+    margin: auto;
+
+    text-align: center;
+}
+.logo__citizen a {
+    text-decoration: none;
+    color: black;
+}
+.logo__citizen img {
+    width: 100%;
+}
+
+/**********************************************
+                HEADER Menu titles
+**********************************************/
+
+.menu { 
+    text-align: center; 
+    /* background-color: #111; */
+    color: #f2df9f;
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+
+.menu__title {
+    background-color: #111;
+    text-transform: uppercase;
+    height: 80px;
+    border-bottom: 1px solid #f2df9f;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__title span {
+    display: inline-block;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.logo__placeholder {
+    /* padding: 0 1px; */
+}
+.logo__citizen {
+    position: absolute;
+    top: 20px;
+	left: 0;
+	right: 0;
+    margin: auto;
+
+    text-align: center;
+}
+.logo__citizen a {
+    text-decoration: none;
+    color: black;
+}
+.logo__citizen img {
+    width: 100%;
+}
+
+@media screen and (max-width:568px) {
+    .pure-u-0-0{display:none}
+}
+@media screen and (min-width:568px) and (max-width:768px) {
+    .pure-u-sm-0-0{display:none}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pure-u-md-0-0{display:none}
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .pure-u-lg-0-0{display:none}
+}
+@media screen and (min-width:1280px) {
+    .pure-u-xl-0-0{display:none}
+}
+
+/**********************************************
+                HEADER Dropdown submenus
+**********************************************/
+
+/* ----- default ----- */
+.dropdown__category {
+    padding: 0;
+}
+.dropdown__category ul,
+.dropdown__category li {
+    list-style: none;
+    padding: 0;    
+    margin: 0;
+}
+.dropdown__category ul {
+    /* position: absolute;
+    width: 300px; */
+    display: none;
+    background-color: #111;
+    /* padding-top: 10px; */
+}
+.dropdown__category a {
+    color: #ddd;
+    display: block;
+    text-decoration: none;
+}
+.dropdown__category div {
+    padding: 10px 0;
+}
+
+/* ----- hover ----- */
+.dropdown__category:hover ul {
+    display: block;
+}
+.dropdown__category:hover li:hover div {
+    background: #f2df9f;
+    color: #111;
+}
+
+/**********************************************
+                MEDIA SPECIFIC
+**********************************************/
+
+@media screen and (max-width:568px) {
+    .pure-u-0-0{display:none}
+    .dropdown__category ul {width: 100%;margin-left: 0;}    
+}
+@media screen and (min-width:568px) and (max-width:768px) {
+    .pure-u-sm-0-0{display:none}
+    .dropdown__category ul {width: 80%;margin-left: 10%;}    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .pure-u-md-0-0{display:none}
+    .dropdown__category ul {width: 70%;margin-left: 15%;}    
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .pure-u-lg-0-0{display:none}
+    .dropdown__category ul {width: 60%;margin-left: 20%;}    
+}
+@media screen and (min-width:1280px) {
+    .pure-u-xl-0-0{display:none}
+    .dropdown__category ul {width: 50%;margin-left: 25%;}    
+}
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+/* https://gist.github.com/rowej83/34117abebf53cd895fa4 */

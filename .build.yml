@@ -1,0 +1,13 @@
+image: archlinux
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  site: preview.citizenbar.fr
+packages:
+- hugo
+tasks:
+- package: |
+    cd frontend
+    make package
+- upload: |
+    cd frontend
+    acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz

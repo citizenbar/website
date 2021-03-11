@@ -1,0 +1,18 @@
+body {
+    background-color: #111;
+    color: #f2df9f; 
+}
+
+.content {
+    text-align: left;
+}
+
+ul.watchlist {
+    margin: 0;
+    padding: 0;
+}
+
+li.watchlist {
+    overflow: hidden;
+    margin: 0 5px;
+}
