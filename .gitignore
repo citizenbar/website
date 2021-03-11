@@ -2,7 +2,7 @@
 .vscode/*.log
 
 site.tar.gz
-public/*
+public
 
 themes/*
 !themes/ctzn
