@@ -8,4 +8,5 @@ themes/*
 !themes/ctzn
 
 content/radio/*
-podcasts.tsv
+content/carte/*
+*.tsv

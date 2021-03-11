@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-curl -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=0&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee carte.tsv
+curl -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=843506310&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee carte.tsv
 
 mkdir -p content/carte/
 rm content/carte/*.md
@@ -20,11 +20,15 @@ do
     then
         IFS=$'\t'
         set -- $line
-        cat > content/carte/${3}.md <<EOF
+        fname="$( echo "$2" | tr [:upper:] [:lower:] | tr -dc '[[:print:]]' | sed -e 's/ $//' -e 's/ /_/g')"
+        cat > content/carte/${fname}.md <<EOF
 ---
-title: $1
-watch: $2
-date:  $3
+title: $2
+desc:  $3
+prix:  $4
+dose:  $5
+categorie: $1
+layout:    carte
 ---
 EOF
     fi
