@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1>{{ .Title }} - layout/carte/list</h1>
+<h1>{{ .Title }}</h1>
 
 <!-- "{{ .Content }}" pulls from the markdown content of the corresponding _index.md -->
 {{ .Content }}
@@ -10,7 +10,7 @@
     {{ range .Pages }}
     <li class="pure-u-1-5 watchlist">
         <a href="{{ .Permalink }}">
-        {{ .Date.Format "2006-01-02" }} | {{ .Title }}
+        {{ .Title }} - {{ .Params.prix }} €
         </a>
     </li>
     {{ end }}
