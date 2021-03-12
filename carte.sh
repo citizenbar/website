@@ -9,6 +9,7 @@ cat > content/carte/_index.md <<EOF
 ---
 title: Carte
 date: 2021-03-11
+type: carte
 ---
 
 Ci-dessous la carte du Citizen
@@ -28,7 +29,7 @@ desc:  $3
 prix:  $4
 dose:  $5
 categorie: $1
-layout:    carte
+type:  carte
 ---
 EOF
     fi
