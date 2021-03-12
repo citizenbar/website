@@ -7,7 +7,7 @@
 
 <!-- Ranges through content/posts/*.md -->
 <ul class="pure-g">
-    {{ range .Pages }}
+    {{ range .Pages }}    
     <li class="pure-u-1-5 watchlist">
         <a href="{{ .Permalink }}">
         {{ .Title }} - {{ .Params.prix }} €
@@ -15,5 +15,11 @@
     </li>
     {{ end }}
 </ul>
+
+
+    {{ with .Site.Params }}
+        {{ $greeting = "Hello" }}
+    {{ end }} 
+{{ $greeting }}
 
 {{ end }}

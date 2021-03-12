@@ -10,3 +10,9 @@
     Souvenirs: `https://schema.org/ImageGallery`
     Records: `https://schema.org/OnDemandEvent`
     
+- Faire les animations CSS 
+    https://stackoverflow.com/a/32721572/1212712
+
+- Finir la page layouts/carte/list.html
+    https://www.stackbit.com/blog/advanced-hugo-templates/
+    https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/
