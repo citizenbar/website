@@ -1,7 +1,7 @@
 ---
 title: "Photos souvenir"
 layout: single
-draft: false
+type: souvenirs
 ---
 
 Gallerie photo
