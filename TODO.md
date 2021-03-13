@@ -9,9 +9,11 @@
     Lives: `https://schema.org/BroadcastEvent`
     Souvenirs: `https://schema.org/ImageGallery`
     Records: `https://schema.org/OnDemandEvent`
+    Établissement: `https://schema.org/LocalBusiness`
     
 - Faire les animations CSS 
     https://stackoverflow.com/a/32721572/1212712
+    https://www.creativejuiz.fr/blog/tutoriels/css3-creer-slideshow-automatique-controlable-transition
 
 - Finir la page layouts/carte/list.html
     https://www.stackbit.com/blog/advanced-hugo-templates/
