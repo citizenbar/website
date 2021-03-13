@@ -7,13 +7,13 @@
 
 <!-- Ranges through content/posts/*.md -->
 <ul class="pure-g">
-    {{ range (.Data.Pages.ByParam "order") }}    
+    {{ range (.Data.Pages.ByParam "ordre") }}    
     <li class="pure-u-1-5 watchlist">
         {{ if eq .Params.categorie "Section" }}
             Section {{.Title }}
         {{ else }}
             <a href="{{ .Permalink }}">
-            {{ .Title }} - {{ .Params.prix }} €
+            {{ .Params.ordre }} - {{ .Title }} - {{ .Params.prix }} €
             </a>
         {{ end }}
     </li>

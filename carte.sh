@@ -34,7 +34,7 @@ prix:  $4
 dose:  $5
 categorie: $1
 type:  carte
-order: $PREFIX
+ordre: $PREFIX
 ---
 EOF
     fi
