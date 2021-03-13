@@ -6,9 +6,7 @@ clean:
 	rm -rf public site.tar.gz
 
 build: clean
-	./carte.sh
 	./podcasts.sh
-	./records.sh
 	hugo -D -v
 
 package: build

@@ -7,7 +7,7 @@ public
 themes/*
 !themes/ctzn
 
-content/radio/*
+content/podcasts/*
 content/carte/*
 content/records/*
 *.tsv
