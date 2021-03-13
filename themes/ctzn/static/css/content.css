@@ -16,3 +16,9 @@ li.watchlist {
     overflow: hidden;
     margin: 0 5px;
 }
+
+.content a {
+    color: #ddd;
+    display: block;
+    text-decoration: none;
+}
