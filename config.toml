@@ -2,3 +2,11 @@ baseURL = "/"
 languageCode = "fr-fr"
 title = "My New Hugo Site"
 theme = "ctzn"
+
+[params]
+    author = "Matthieu"
+    owner = "Manu & Matthieu"
+    description = "Faites pas chier"
+    instagram = "@citizenbarfr"
+    facebook = "citizenbarfr"
+    twitter = "citizenbarfr"

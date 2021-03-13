@@ -9,9 +9,13 @@
 <ul class="pure-g">
     {{ range .Pages }}    
     <li class="pure-u-1-5 watchlist">
-        <a href="{{ .Permalink }}">
-        {{ .Title }} - {{ .Params.prix }} €
-        </a>
+        {{ if eq .Params.categorie "Section" }}
+            Section {{.Title }}
+        {{ else }}
+            <a href="{{ .Permalink }}">
+            {{ .Title }} - {{ .Params.prix }} €
+            </a>
+        {{ end }}
     </li>
     {{ end }}
 </ul>
