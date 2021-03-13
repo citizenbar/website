@@ -7,6 +7,8 @@ clean:
 
 build: clean
 	./podcasts.sh
+	./records.sh
+	./carte.sh
 	hugo -D -v
 
 package: build
