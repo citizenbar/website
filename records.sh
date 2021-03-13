@@ -25,6 +25,7 @@ do
 title: $1
 watch: $2
 date:  $3
+type:  records
 ---
 EOF
     fi

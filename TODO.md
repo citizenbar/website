@@ -16,3 +16,7 @@
 - Finir la page layouts/carte/list.html
     https://www.stackbit.com/blog/advanced-hugo-templates/
     https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/
+    https://regisphilibert.com/blog/2017/04/hugo-scratch-explained-variable/
+
+- Ajouter robots.txt
+- Ajouter security.txt ?
