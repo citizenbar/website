@@ -10,7 +10,7 @@
     {{ range (.Data.Pages.ByParam "ordre") }}    
     <li>
         {{ if eq .Params.categorie "Section" }}
-            Section {{.Title }}
+            <b>Section {{.Title }}</b>
         {{ else }}
             <a href="{{ .Permalink }}">
             {{ .Params.ordre }} - {{ .Title }} - {{ .Params.prix }} €
