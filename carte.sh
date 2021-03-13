@@ -26,7 +26,7 @@ do
         IFS=$'\t'
         set -- $line
         fname="$( echo "$2" | tr [:upper:] [:lower:] | tr -dc '[[:print:]]' | sed -e 's/ $//' -e 's/ /_/g')"
-        cat > content/carte/${fname}.md <<EOF
+        cat > content/carte/${PREFIX}_${fname}.md <<EOF
 ---
 title: $2
 desc:  $3
