@@ -10,7 +10,7 @@
     {{ range .Pages }}    
     <li class="pure-u-1-5 watchlist">
         <a href="{{ .Permalink }}">
-        {{ .Title }} - {{ .prix }} €
+        {{ .Title }} - {{ .Params.prix }} €
         </a>
     </li>
     {{ end }}
