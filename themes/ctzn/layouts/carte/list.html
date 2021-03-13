@@ -7,7 +7,7 @@
 
 <!-- Ranges through content/posts/*.md -->
 <ul class="pure-g">
-    {{ range .Pages }}    
+    {{ range (.Data.Pages.ByParam "order") }}    
     <li class="pure-u-1-5 watchlist">
         {{ if eq .Params.categorie "Section" }}
             Section {{.Title }}
