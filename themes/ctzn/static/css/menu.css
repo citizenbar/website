@@ -20,7 +20,7 @@
 **********************************************/
 
 .logo__placeholder {
-    /* padding: 0 1px; */
+    padding: 0 1px;
 }
 .logo__citizen {
     position: absolute;
@@ -71,26 +71,6 @@
     display: inline-block;
     align-self: flex-end;
     margin-bottom: 10px;
-}
-
-.logo__placeholder {
-    /* padding: 0 1px; */
-}
-.logo__citizen {
-    position: absolute;
-    top: 20px;
-	left: 0;
-	right: 0;
-    margin: auto;
-
-    text-align: center;
-}
-.logo__citizen a {
-    text-decoration: none;
-    color: black;
-}
-.logo__citizen img {
-    width: 100%;
 }
 
 @media screen and (max-width:568px) {
