@@ -6,13 +6,15 @@
 {{ .Content }}
 
 <!-- Ranges through content/posts/*.md -->
-<ul class="pure-g">
+<ul itemscope itemtype="https://schema.org/PodcastEpisode" class="pure-g">
     {{ range .Pages }}
     <li class="pure-u-1-5 watchlist">
-        <a href="{{ .Permalink }}">
-        {{ if .Params.watch }}
-        <img src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}"></a>
-        {{ end }}
+        <a itemprop="url" href="{{ .Permalink }}">
+            <span itemprop="name">{{ .Title }}</span>
+            <span itemprop="datePublished" datetime="{{ .PublishDate }}">{{ .PublishDate }}</span>
+            {{ if .Params.watch }}
+            <img src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}"></a>
+            {{ end }}
         </a>
     </li>
     {{ end }}
