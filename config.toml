@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "fr-fr"
 title = "My New Hugo Site"
 theme = "ctzn"
+enableRobotsTXT = true
 
 [params]
     author = "Matthieu"
