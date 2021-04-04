@@ -6,7 +6,6 @@ clean:
 	rm -rf public site.tar.gz
 
 build: clean
-	./purecss.sh
 	./podcasts.sh
 	./records.sh
 	./carte.sh
