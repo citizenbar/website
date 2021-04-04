@@ -7,9 +7,9 @@ rm content/carte/*.md
 
 cat > content/carte/_index.md <<EOF
 ---
-title: Carte
-date: 2021-03-11
-type: carte
+title: "Carte"
+date: "2021-03-11"
+type: "carte"
 ---
 
 Ci-dessous la carte du Citizen
@@ -28,13 +28,13 @@ do
         fname="$( echo "$2" | tr [:upper:] [:lower:] | tr -dc '[[:print:]]' | sed -e 's/ $//' -e 's/ /_/g')"
         cat > content/carte/${fname}.md <<EOF
 ---
-title: $2
-desc:  $3
-prix:  $4
-dose:  $5
-categorie: $1
-type:  carte
-ordre: $PREFIX
+title: "$2"
+desc:  "$3"
+prix:  "$4"
+dose:  "$5"
+categorie: "$1"
+type:  "carte"
+ordre: "$PREFIX"
 ---
 EOF
     fi

@@ -7,8 +7,8 @@ rm content/podcasts/*.md
 
 cat > content/podcasts/_index.md <<EOF
 ---
-title: Podcasts
-date: 2021-03-11
+title: "Podcasts"
+date: "2021-03-11"
 ---
 
 Ci-dessous la liste des podcasts
@@ -22,10 +22,10 @@ do
         set -- $line
         cat > content/podcasts/${3}.md <<EOF
 ---
-title: $1
-watch: $2
-date:  $3
-type:  podcasts
+title: "$1"
+watch: "$2"
+date:  "$3"
+type:  "podcasts"
 ---
 EOF
     fi

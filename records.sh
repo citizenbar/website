@@ -7,9 +7,9 @@ rm content/records/*.md
 
 cat > content/records/_index.md <<EOF
 ---
-title: Enregistrements
-date: 2021-03-11
-csstemplate: itemsLists
+title: "Enregistrements"
+date: "2021-03-11"
+csstemplate: "itemsLists"
 ---
 
 Ci-dessous la liste des enregistrements à voir en replay
@@ -23,12 +23,12 @@ do
         set -- $line
         cat > content/records/${3}.md <<EOF
 ---
-title: $1
-watch: $2
-date:  $3
-type:  records
-genre: $4
-csstemplate: itemsDetails
+title: "$1"
+watch: "$2"
+date:  "$3"
+type:  "records"
+genre: "$4"
+csstemplate: "itemsDetails"
 ---
 EOF
     fi
