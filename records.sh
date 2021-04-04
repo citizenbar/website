@@ -27,6 +27,7 @@ title: $1
 watch: $2
 date:  $3
 type:  records
+genre: $4
 csstemplate: itemsDetails
 ---
 EOF

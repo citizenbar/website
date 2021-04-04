@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+    {{.Content}}
+
+    <section class="section details">
+        <div class="section__header">
+            <h2 class="section__title">{{.Title}}</h2>
+            <div class="label-round colored">{{ .Params.genre }}</div>
+        </div>
+
+        <video class="section__video" controls poster="./img/sampleGif_1.gif">
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+        </video>
+
+        {{ if .Params.watch }}
+        <iframe 
+            width="560" 
+            height="315" 
+            sandbox="allow-same-origin allow-scripts allow-popups" 
+            src="https://tube.citizenbar.fr/videos/embed/{{ .Params.watch }}?title=0&warningTitle=0&controls=1&peertubeLink=0" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+        {{ end }}
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        </p>
+        <div class="section__label-container">
+            <div class="label-round">Label</div>
+            <div class="label-round">Label</div>
+            <div class="label-round">Label</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section__header">
+            <h2 class="section__title">Du même artiste</h2>
+        </div>
+
+        <ul class="section__list-card">
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="./img/sample_1.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="./img/sample_2.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_3.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_4.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+{{ end }}

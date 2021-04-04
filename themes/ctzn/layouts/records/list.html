@@ -71,8 +71,8 @@
                     <img class="card__img" src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}" />
                 </figure>
                 <div class="card__text-container">
-                    <p class="card__text card__text-title">Nom évènement</p>
-                    <p class="card__text card__text-info">12/03/21</p>
+                    <p class="card__text card__text-title">{{ .Title }}</p>
+                    <p class="card__text card__text-info">{{ .Date }}</p>
                 </div>
                 {{ end }}
             </a>
