@@ -7,7 +7,7 @@ rm content/records/*.md
 
 cat > content/records/_index.md <<EOF
 ---
-title: Replay
+title: Enregistrements
 date: 2021-03-11
 csstemplate: itemsLists
 ---

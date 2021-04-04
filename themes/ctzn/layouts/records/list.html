@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<h1>{{ .Title }} - layout/records/list</h1>
+<h1>layout/records/list</h1>
 
 <!-- "{{ .Content }}" pulls from the markdown content of the corresponding _index.md -->
 
@@ -54,8 +54,8 @@
 
 <section class="section">
     <div class="section__header flex-split">
-        <h2 class="section__title">Enregistrements</h2>
-        <div class="label-round">19</div>
+        <h2 class="section__title">{{ .Title }}</h2>
+        <div class="label-round">{{ len .Pages }}</div>
         <a class="section__button button-rect button-hover-animation" href="#filter">Filtrer et trier</a>
     </div>
 
