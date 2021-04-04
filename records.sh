@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=1308892709&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee podcasts.tsv
+curl -w '\n' -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=1308892709&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee podcasts.tsv
 
 mkdir -p content/records/
 rm content/records/*.md
