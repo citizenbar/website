@@ -40,8 +40,9 @@
 
 .section.details .section__video {
     position: absolute;
-    max-width: 45vw;
-    width: auto;
+    /* max-width: 45vw;
+    width: auto; */
+    height: 100%;
     top: 0;
     left: 0;
 }
