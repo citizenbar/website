@@ -9,6 +9,7 @@ cat > content/records/_index.md <<EOF
 ---
 title: Replay
 date: 2021-03-11
+csstemplate: itemsDetails
 ---
 
 Ci-dessous la liste des enregistrements à voir en replay
