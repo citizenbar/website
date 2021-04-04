@@ -8,10 +8,6 @@
             <div class="label-round colored">{{ .Params.genre }}</div>
         </div>
 
-        <video class="section__video" controls poster="./img/sampleGif_1.gif">
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
-        </video>
-
         {{ if .Params.watch }}
         <iframe 
             width="560" 
@@ -19,6 +15,7 @@
             sandbox="allow-same-origin allow-scripts allow-popups" 
             src="https://tube.citizenbar.fr/videos/embed/{{ .Params.watch }}?title=0&warningTitle=0&controls=1&peertubeLink=0" 
             frameborder="0" 
+            class="section__video"
             allowfullscreen>
         </iframe>
         {{ end }}
