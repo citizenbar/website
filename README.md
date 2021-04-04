@@ -18,7 +18,6 @@ Sourcehut impose une CSP très restrictif empêchant d'inclure des ressources ex
 
 ## Deploiement sur netlify
 
-
 On veut donc aussi pouvoir déployer sur netlify (pour la prod par exemple)
 
 ```

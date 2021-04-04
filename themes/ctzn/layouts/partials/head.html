@@ -1,24 +1,18 @@
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/grids-responsive-min.css">
-        <!-- Alternative pour sr.ht qui a des CSP plus restrictives
-        <link rel="stylesheet" href="/css/pure-min.css">
-        <link rel="stylesheet" href="/css/grids-responsive-min.css">
-        -->
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Depuis 2013 - Des lives de toute la scène musicale Tourangelle : DJs sets, Groupes Acoustiques, Enregistrements radio live #drinks #food.">
 
-        <link rel="stylesheet" href="/css/menu.css">
-        <link rel="stylesheet" href="/css/content.css">
-        <link rel="stylesheet" href="/css/slideshow.css">
-
+        <meta name="msapplication-TileImage" content="/img/cropped-citizen-favicon.1024x1024.ico-270x270.png" />
         <link rel="icon"                     href="/img/cropped-citizen-favicon.1024x1024.ico-32x32.png" sizes="32x32" />
         <link rel="icon"                     href="/img/cropped-citizen-favicon.1024x1024.ico-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon"         href="/img/cropped-citizen-favicon.1024x1024.ico-180x180.png" />
-        <meta name="msapplication-TileImage" content="/img/cropped-citizen-favicon.1024x1024.ico-270x270.png" />
 
+        <link rel="stylesheet" href="/css/mobile/homepage.css" media="all and (max-width: 767px)"/>
+        <link rel="stylesheet" href="/css/desktop/homepage.css" media="all and (min-width: 768px)"/>
+        
         <title>Citizen Bar - {{ $title := print .Site.Title " | " .Title }}</title>
-        <meta name="description" content="Depuis 2013 - Des lives de toute la scène musicale Tourangelle : DJs sets, Groupes Acoustiques, Enregistrements radio live #drinks #food.">
     </head>
-    
-

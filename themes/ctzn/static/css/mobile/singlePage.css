@@ -1,0 +1,73 @@
+@import url(Global.css);
+
+
+.section__button {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 2.5vh 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 2.5vh 0;
+    font-size: 90%;
+}
+
+.section__button-text {
+    color: #000;
+    font-weight: bold;
+}
+
+.section__button-icon {
+    margin: 2.5vh 5vw 2.5vh 5vw;
+    height: 5vh;
+}
+
+
+.section__img {
+    margin-top: 5vh;
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.section__img.header-image {
+    height: 30vh;
+    object-fit: cover;
+}
+
+.section__button {
+    border: none;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 2.5vh 0;
+    margin-top: 5vh;
+    border-radius: 3px;
+}
+
+.section__grid {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2.5vw 2.5vw;
+}
+
+.grid__img-container {
+    border-radius: 3px;
+    background-image: url(../img/img_background.svg);
+    background-position: center;
+    background-size: 25%;
+    background-color: #272727;
+    background-repeat: no-repeat;
+    height: 30vw;
+}
+
+.grid__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

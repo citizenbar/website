@@ -1,0 +1,41 @@
+.section__list-card {
+    list-style: none;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.section .card {
+    margin: 2.5vw;
+}
+
+.section .card:first-child {
+    margin-left: 0;
+}
+
+.section .card:last-child {
+    margin-right: 0;
+}
+
+.section .card__link {
+    text-decoration: none;
+}
+
+.section .card__img {
+    height: 40vw;
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.section .card__text {
+    margin: 1vh 0;
+}
+
+.section .card__text-info {
+    font-weight: bold;
+}
+
+.section__list-card-anchor,
+.section__card-command-container {
+    display: none;
+}

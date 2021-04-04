@@ -1,8 +1,145 @@
 {{ define "main" }}
-        <div id="slideshow">
-            <div class="slide-wrapper">
-              <div class="slide"><img src="/img/citizen-people-1920x800-2-scaled.jpg" alt="Photo du bar" /></div>
-              <div class="slide"><img src="/img/citizen-inside-1920x800-2-1920x860.jpg" alt="Photo de la salle" /></div>
-            </div>
-          </div>
+  <section class="section">
+    <div class="section__header">
+        <h2 class="section__title">Évènements</h2>
+        <div class="section__card-command-container">
+            <a href="#s1-first-card" class="section__card-command left" >&lt;</a><a href="#s1-last-card" class="section__card-command right" >&gt;</a>
+        </div>
+    </div>
+
+    <!-- Permet le carousel, incrémenter le chiffre pour chaque carousel -->
+    <div id="s1-first-card" class="section__list-card-anchor first-card" ></div>
+    <div id="s1-last-card" class="section__list-card-anchor last-card" ></div>
+
+    <div class="section__list-card-container">
+        <ul class="section__list-card">
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="./img/sample_1.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="./img/sample_2.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_3.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_4.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_5.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_6.png" alt="Sample"/>
+                    </figure>
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">Genre</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__header">
+        <h2 class="section__title">Cocktails du moment</h2>
+        <div class="section__card-command-container">
+            <a href="#s2-first-card" class="section__card-command left" >&lt;</a><a href="#s2-last-card" class="section__card-command right" >&gt;</a>
+        </div>
+    </div>
+
+    <!-- Permet le carousel, incrémenter le chiffre pour chaque carousel -->
+    <div id="s2-first-card" class="section__list-card-anchor first-card" ></div>
+    <div id="s2-last-card" class="section__list-card-anchor last-card" ></div>
+    
+    <div class="section__list-card-container">
+        <ul class="section__list-card">
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_7.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">12€</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_8.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">8€</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_9.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">6.50€</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_10.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">10€</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_11.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">8.50€</p>
+                </a>
+            </li>
+            <li class="card">
+                <a href="./itemsDetails.html" class="card__link">
+                    <figure class="card__img-container">
+                        <img class="card__img" src="img/sample_12.png" alt="Sample" />
+                    </figure>
+                    <p class="card__text card__text-title">Nom du produit</p>
+                    <p class="card__text card__text-info">5€</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+  </section>
 {{ end }}

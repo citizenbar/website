@@ -1,0 +1,74 @@
+.section__card-command {
+    margin: auto 1vw;
+    display: inline-block;
+    font-size: 150%;
+    transition: color 200ms;
+    color: #bbbbbb;
+    vertical-align: super;
+    cursor: pointer;
+}
+
+.section__card-command:hover {
+    color: white;
+}
+
+.section__list-card-container {
+    overflow-x: hidden;
+}
+
+.section__list-card {
+    display: flex;
+    list-style: none;
+    transition: transform 200ms;
+}
+
+.card {
+    margin: 1vw;
+}
+
+.card:first-child{
+    margin-left: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.section__list-card-anchor {
+    display: none;
+    position: fixed;
+}
+
+.section__list-card-anchor.first-card:target ~ .section__list-card-container .section__list-card {
+    transform: translateX(0);
+}
+
+.section__list-card-anchor.last-card:target ~ .section__list-card-container .section__list-card {
+    transform: translateX(calc(-50% - 1vw));
+}
+
+.card__img-container {
+    height: 21vw;
+    width: 21vw;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.card:hover .card__img {
+    transform: scale(1.05);
+}
+
+.card__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 400ms;
+}
+
+.card__text {
+    margin: 1vh 0;
+}
+
+.card__text-info {
+    font-weight: bold;
+}
