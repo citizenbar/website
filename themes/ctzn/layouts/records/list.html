@@ -7,15 +7,81 @@
 
 <!-- Ranges through content/posts/*.md -->
 <ul class="pure-g">
-    {{ range .Pages }}
-    <li class="pure-u-1-5 watchlist">
-        <a href="{{ .Permalink }}">
-        {{ if .Params.watch }}
-        <img src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}"></a>
-        {{ end }}
-        </a>
-    </li>
-    {{ end }}
+
 </ul>
+
+<div class="filter-order-container" id="filter">   
+    <a href="#" class="filter-order__back-container">  
+        <svg class="filter-order__back" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM21 7L1 7V9L21 9V7Z" fill="#1B1B1B"/>
+        </svg>
+    </a>
+
+    <div class="filter-order-container__group">
+        <p class="group-title">Filtrer par</p>
+        <div class="radio-container">
+            <div class="input-container">
+                <input type="radio" id="prd_popu" name="filter" value="prd_popu">
+                <label for="prd_popu">Produits populaires</label>
+            </div>
+            <div class="input-container">
+                <input type="radio" id="prd_events" name="filter" value="prd_events">
+                <label for="prd_events">Produits events</label>
+            </div>
+            <div class="input-container">
+                <input type="radio" id="cocktails" name="filter" value="cocktails">
+                <label for="cocktails">Cocktails</label>
+            </div>
+        </div>
+    </div>
+    <div class="filter-order-container__group">
+        <p class="group-title">Trier par</p>
+        <div class="radio-container">
+            <div class="input-container">
+                <input type="radio" id="recommande" name="order" value="recommande" checked>
+                <label for="recommande">Recommandé</label>
+            </div>
+            <div class="input-container">
+                <input type="radio" id="recent" name="order" value="recent">
+                <label for="recent">Plus récent</label>
+            </div>
+            <div class="input-container">
+                <input type="radio" id="prix_bas" name="order" value="prix_bas">
+                <label for="prix_bas">Plus bas prix</label>
+            </div>
+            <div class="input-container">
+                <input type="radio" id="prix_eleve" name="order" value="prix_eleve">
+                <label for="prix_eleve">Prix le plus élevé</label>
+            </div>
+        </div>
+    </div>
+    <button class="filter-order__button button-rect button-hover-animation">Confirmer</button>
+</div>
+
+<section class="section">
+    <div class="section__header flex-split">
+        <h2 class="section__title">Enregistrements</h2>
+        <div class="label-round">19</div>
+        <a class="section__button button-rect button-hover-animation" href="#filter">Filtrer et trier</a>
+    </div>
+
+    <ul class="section__list-card">
+        {{ range .Pages }}
+        <li class="card">
+
+            <a href="{{ .Permalink }}" class="card__link">
+                {{ if .Params.watch }}
+                <figure class="card__img-container">
+                    <img class="card__img" src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}" />
+                </figure>
+                <div class="card__text-container">
+                    <p class="card__text card__text-title">Nom évènement</p>
+                    <p class="card__text card__text-info">12/03/21</p>
+                </div>
+                {{ end }}
+            </a>
+
+        </li>
+        {{ end }}
 
 {{ end }}
