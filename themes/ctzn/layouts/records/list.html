@@ -5,11 +5,6 @@
 <!-- "{{ .Content }}" pulls from the markdown content of the corresponding _index.md -->
 {{ .Content }}
 
-<!-- Ranges through content/posts/*.md -->
-<ul class="pure-g">
-
-</ul>
-
 <div class="filter-order-container" id="filter">   
     <a href="#" class="filter-order__back-container">  
         <svg class="filter-order__back" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,6 +60,7 @@
         <a class="section__button button-rect button-hover-animation" href="#filter">Filtrer et trier</a>
     </div>
 
+    <!-- Ranges through content/posts/*.md -->
     <ul class="section__list-card">
         {{ range .Pages }}
         <li class="card">
