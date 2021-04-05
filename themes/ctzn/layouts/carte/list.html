@@ -68,7 +68,7 @@
                 {{ if eq .Params.categorie "Section" }}
                 <div class="card__img-container" style="background-color: black;">{{ .Title }}</div>
                 {{ else }}
-                <figure class="card__img-container">
+                <figure class="card__img-container-section">
                     <img class="card__img" src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Title }}" />
                 </figure>
                 <div class="card__text-container">

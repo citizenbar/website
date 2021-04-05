@@ -19,6 +19,15 @@
     background-color: aquamarine;
 }
 
+card__img-container-section {
+    width: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .section__header .section__button {
     order: 1;
 }
