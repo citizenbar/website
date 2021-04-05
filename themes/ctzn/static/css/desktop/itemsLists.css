@@ -16,6 +16,7 @@
     width: auto;
     border-radius: 3px;
     overflow: hidden;
+    background-color: aquamarine;
 }
 
 .section__header .section__button {
