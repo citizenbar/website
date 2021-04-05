@@ -30,6 +30,8 @@ type:  "records"
 genre: "$4"
 csstemplate: "itemsDetails"
 ---
+
+$5
 EOF
     fi
 done < records.tsv
