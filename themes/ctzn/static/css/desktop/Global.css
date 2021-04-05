@@ -120,7 +120,6 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--background-color-light1);
-    border-radius: 3px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -147,8 +146,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    padding-top: 5vh;
-    border-radius: 3px;
+    border: 1px solid var(--background-color-light1);
     font-weight: normal;
     display: none;
 }
