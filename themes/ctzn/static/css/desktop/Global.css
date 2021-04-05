@@ -122,6 +122,7 @@ body {
     border: 1px solid var(--background-color-light1);
     cursor: pointer;
     font-weight: bold;
+    width: 210px;
 }
 
 .nav__list-item:first-child {
@@ -142,10 +143,10 @@ body {
 }
 
 .nav__item-menu {
-    width: 100%;
+    width: 210px;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -1px;
     border: 1px solid var(--background-color-light1);
     font-weight: normal;
     display: none;
