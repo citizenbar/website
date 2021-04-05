@@ -3,7 +3,7 @@
 curl -w '\n' -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=0&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee podcasts.tsv
 
 mkdir -p content/podcasts/
-rm content/podcasts/*.md
+rm -f content/podcasts/*.md
 
 cat > content/podcasts/_index.md <<EOF
 ---

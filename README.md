@@ -25,3 +25,12 @@ On veut donc aussi pouvoir déployer sur netlify (pour la prod par exemple)
 git push gh       # <-- utilise le netlify.toml
 ```
 
+## Database
+
+La base de donnée du site est un tableur sur Google Sheet nommé [Citizen Database](https://docs.google.com/spreadsheets/d/13gr_L-7bk4itlpC4wqGOgOHOHmj3F4KtdoN041lTX8s/edit)
+
+Chaque onglet est publié sur le web en format tsv _("tab-separated values")_
+
+`File -> Publish to the Web -> Link (tab)`
+
+![Screenshot](publish-to-the-web.png "Screenshot")
