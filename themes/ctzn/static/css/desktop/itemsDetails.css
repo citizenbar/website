@@ -8,10 +8,10 @@
 }
 
 .section__label-container {
-    display: flex;
-    margin: 10vh 0;
-    justify-content: flex-start;
+    display: flow-root;
+    margin: 30px 0;
     text-transform: uppercase;
+    height: 45px;
 }
 
 .section__label-container .label-round {
