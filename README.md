@@ -34,3 +34,13 @@ Chaque onglet est publié sur le web en format tsv _("tab-separated values")_
 `File -> Publish to the Web -> Link (tab)`
 
 ![Screenshot](publish-to-the-web.png "Screenshot")
+
+## Cache
+
+Le cache de firefox peut créer des problèmes de debug
+
+```
+(1) about:config
+(2) browser.cache.disk.enable => false
+(3) browser.cache.memory.enable => false
+```
