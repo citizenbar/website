@@ -1,18 +1,37 @@
 {{ define "main" }}
 
-    <h1>{{.Title}}</h1>
+    <h1>layout/_default/single</h1>
 
-    {{.Content}}
+    <section class="section centered-text">
+        <img class="section__img" src="/img/sample_13.png" alt="Sample" />
+        <h2 class="section__title">{{ .Title }}</h2>
+        <p class="section__text">
+            {{ .Content }}
+        </p>
 
-    {{ if .Params.watch }}
-    <iframe 
-        width="560" 
-        height="315" 
-        sandbox="allow-same-origin allow-scripts allow-popups" 
-        src="https://tube.citizenbar.fr/videos/embed/{{ .Params.watch }}?title=0&warningTitle=0&controls=1&peertubeLink=0" 
-        frameborder="0" 
-        allowfullscreen>
-    </iframe>
-    {{ end }}
+        <button class="section__button button-rect button-hover-animation">
+            Voir nos produits
+        </button>
+        
+        <div class="section__grid">
+            <figure class="grid__img-container">
+                <img class="grid__img" src="/img/sample_9.png" alt="Sample" />
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+            <figure class="grid__img-container">
+            </figure>
+        </div>
+    </section>
 
 {{ end }}
