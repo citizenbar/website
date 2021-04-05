@@ -181,7 +181,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 .section__button {
@@ -195,8 +195,7 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
-    padding-top: 20px;
+    padding: 20px 50px;
 }
 
 .footer .media {
