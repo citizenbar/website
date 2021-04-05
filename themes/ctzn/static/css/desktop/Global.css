@@ -114,9 +114,8 @@ body {
 
 .button-rect {
     position: relative;
-    height: 10vh;
-    min-height: 50px;
-    padding: 0 1vw;
+    height: 100px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
