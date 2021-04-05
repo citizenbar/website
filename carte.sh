@@ -10,6 +10,7 @@ cat > content/carte/_index.md <<EOF
 title: "Carte"
 date: "2021-03-11"
 type: "carte"
+csstemplate: "itemsLists"
 ---
 
 Ci-dessous la carte du Citizen
@@ -35,6 +36,7 @@ dose:  "$5"
 categorie: "$1"
 type:  "carte"
 ordre: "$PREFIX"
+csstemplate: "itemsDetails"
 ---
 EOF
     fi
