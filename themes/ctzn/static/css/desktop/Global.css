@@ -71,6 +71,7 @@ body {
     display: flex;
     align-items: center;
     padding: 50px;
+    padding-bottom: 20px;
 }
 
 .header > * {
@@ -173,14 +174,14 @@ body {
 }   
 
 .section {
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .section__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5vh 0;
+    margin: 10px 0;
 }
 
 .section__button {
@@ -195,6 +196,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    padding-top: 20px;
 }
 
 .footer .media {
