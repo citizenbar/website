@@ -173,7 +173,7 @@ body {
 }   
 
 .section {
-    margin: 10vh auto;
+    padding: 50px;
 }
 
 .section__header {
