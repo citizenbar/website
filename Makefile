@@ -6,9 +6,9 @@ clean:
 	rm -rf public site.tar.gz
 
 build: clean
-	./events.sh
-	./records.sh
-	./carte.sh
+	./bin/events.sh
+	./bin/records.sh
+	./bin/carte.sh
 	hugo -D -v
 
 package: build
