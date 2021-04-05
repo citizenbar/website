@@ -2,10 +2,10 @@
 
 curl -w '\n' -sSL "https://docs.google.com/spreadsheets/d/e/2PACX-1vTyoMcI-aqWgYfdLocDbBhyFX5MmTtgrWR2CDMSHhtb1yVFTaorw9elsMpFo245ExFBaOPIWSPcn4gC/pub?gid=1595323090&single=true&output=tsv" | sed 's/\r$//' | sed 1d | tee events.tsv
 
-mkdir -p content/events/
-rm -f content/events/*.md
+mkdir -p content/evenements/
+rm -f content/evenements/*.md
 
-cat > content/events/_index.md <<EOF
+cat > content/evenements/_index.md <<EOF
 ---
 title: "Évènements"
 date: "2021-03-11"
@@ -21,7 +21,7 @@ do
     then
         IFS=$'\t'
         set -- $line
-        cat > content/events/${3}.md <<EOF
+        cat > content/evenements/${3}.md <<EOF
 ---
 title: "$1"
 watch: "$2"
@@ -34,4 +34,4 @@ EOF
     fi
 done < events.tsv
 
-ls -l content/events/
+ls -l content/evenements/
