@@ -7,7 +7,7 @@ rm -f content/events/*.md
 
 cat > content/events/_index.md <<EOF
 ---
-title: "Enregistrements"
+title: "Évènements"
 date: "2021-03-11"
 csstemplate: "itemsLists"
 ---

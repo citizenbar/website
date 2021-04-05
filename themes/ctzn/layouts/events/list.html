@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<h1>layout/records/list</h1>
+
+<!-- "{{ .Content }}" pulls from the markdown content of the corresponding _index.md -->
+
+<section class="section">
+
+    <!-- Ranges through content/posts/*.md -->
+    <ul class="section__list-card">
+        {{ range .Pages }}
+        <li class="card">
+
+            <a href="{{ .Permalink }}" class="card__link">
+                {{ if .Params.watch }}
+                <figure class="card__img-container">
+                    <img class="card__img" src="{{ .Params.watch }}" alt="{{ .Date.Format "2006-01-02" }} | {{ .Title }}" />
+                </figure>
+                <div class="card__text-container">
+                    <p class="card__text card__text-title">{{ .Title }}</p>
+                    <p class="card__text card__text-info">{{ .Date }}</p>
+                </div>
+                {{ end }}
+            </a>
+
+        </li>
+        {{ end }}
+    </ul>
+</section>
+
+{{ end }}
