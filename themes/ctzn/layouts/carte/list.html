@@ -66,7 +66,11 @@
 
             <a href="{{ .Permalink }}" class="card__link">
                 {{ if eq .Params.categorie "Section" }}
-                <div class="card__img-container-section" style="background-color: black;">{{ .Title }}</div>
+                <div class="card__img-container" style="background-color: black;">
+                    <div class="card__img">
+                    {{ .Title }}
+                    </div>
+                </div>
                 {{ else }}
                 <figure class="card__img-container">
                     <img class="card__img" src="https://tube.citizenbar.fr/lazy-static/previews/{{ .Params.watch }}.jpg" alt="{{ .Title }}" />
