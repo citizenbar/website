@@ -14,7 +14,7 @@ make deploy
 git push origin   # <-- utilise le .build.yml
 ```
 
-Sourcehut impose une CSP très restrictif empêchant d'inclure des ressources externes dans les pages
+Attention : Sourcehut impose une CSP très restrictive empêchant d'inclure des ressources externes dans les pages !
 
 ## Deploiement sur netlify
 
@@ -43,4 +43,22 @@ Le cache de firefox peut créer des problèmes de debug
 (1) about:config
 (2) browser.cache.disk.enable => false
 (3) browser.cache.memory.enable => false
+```
+
+## Guidelines
+
+Quelques éléments pour retrouver ses petits :
+
+```
+layouts/_default/baseof.html    # <-- <html><body></body></html>
+
+layouts/partials/head.html      # <-- <head></head>
+
+layouts/partials/header.html    # <-- <header></header>
+layouts/partials/footer.html    # <-- <footer></footer>
+
+layouts/index.html              # <-- homepage
+
+layouts/{context}/list.html     # <-- list des items
+layouts/{context}/single.html   # <-- details d'un item
 ```

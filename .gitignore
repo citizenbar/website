@@ -12,4 +12,6 @@ content/carte/*
 content/records/*
 *.tsv
 
-CitizenTemplates
+CitizenTemplates*
+
+static/img_v1

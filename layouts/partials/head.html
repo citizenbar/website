@@ -1,18 +1,36 @@
     <head>
-        <meta charset="UTF-8">
+        <title>Citizen Bar - {{ $title := print .Site.Title " | " .Title }}</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <meta name="robots" content="index, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Depuis 2013 - Des lives de toute la scène musicale Tourangelle : DJs sets, Groupes Acoustiques, Enregistrements radio live #drinks #food.">
-
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="robots" content="index, follow" />
+        
+        <!-- FAV AND ICONS   -->
         <meta name="msapplication-TileImage" content="/img/cropped-citizen-favicon.1024x1024.ico-270x270.png" />
         <link rel="icon"                     href="/img/cropped-citizen-favicon.1024x1024.ico-32x32.png" sizes="32x32" />
         <link rel="icon"                     href="/img/cropped-citizen-favicon.1024x1024.ico-192x192.png" sizes="192x192" />
         <link rel="apple-touch-icon"         href="/img/cropped-citizen-favicon.1024x1024.ico-180x180.png" />
-
+        
+        <!-- Google Font-->
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/6c5c6acafc.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Animate CSS-->
+        <link rel="stylesheet" href="/css/plugins/css/animate.css">
+        <!-- Owl Carousel CSS-->
+        <link rel="stylesheet" href="/css/plugins/css/owl.css">
+        <!-- Fancybox-->
+        <link rel="stylesheet" href="/css/plugins/css/jquery.fancybox.min.css">
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        <!--
         <link rel="stylesheet" href="/css/mobile/{{ .Params.csstemplate }}.css" media="all and (max-width: 767px)"/>
         <link rel="stylesheet" href="/css/desktop/{{ .Params.csstemplate }}.css" media="all and (min-width: 768px)"/>
-     
-        <title>Citizen Bar - {{ $title := print .Site.Title " | " .Title }}</title>
+        -->
     </head>
