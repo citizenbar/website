@@ -1,0 +1,166 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Major place in TOURS city for music lovers"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image : "images/banner/musiclovers.jpg"
+  button:
+   enable : false
+   label : "All events"
+   link : "products"
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "All our events in one place"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Past"
+    icon : "tf-ion-ios-recording"
+    content : "Binge watch all our recording of previous artists sessions"
+    button:
+      enable : true
+      label : "Replay"
+      link : "replay"  # feature at the right of the image
+  center_side:
+    # feature item loop
+  - title : "Present"
+    icon : "tf-ion-play"
+    content : "Head to our live streaming session. Right Now !"
+    button:
+      enable : true
+      label : "Live Stream"
+      link : "https://mixcloud.com/live/citizenbarfr"  # feature at the right of the image
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Future"
+    icon : "tf-ion-android-calendar"
+    content : "Get to know the next fantastic events prepared for you by our team of experts"
+    button:
+      enable : true
+      label : "Events"
+      link : "events"  # feature at the right of the image
+
+  # items:
+  #   # about product item loop
+  #   - image : "images/about/events.png"
+  #     title : "FUTURE"
+  #     content : "Check all the future events"
+  #     button:
+  #       enable : true
+  #       label : "Events"
+  #       link : "#"
+        
+  #   # about product item loop
+  #   - image : "images/about/live.png"
+  #     title : "PRESENT"
+  #     content : "Click to start watching current live session"
+  #     button:
+  #       enable : true
+  #       label : "Live Stream"
+  #       link : "https://mixcloud.com/live/citizenbarfr"
+        
+  #   # about product item loop
+  #   - image : "images/about/replay.png"
+  #     title : "PAST"
+  #     content : "Watch again and again your favorite past session, discover new ones and walk through our artists sets"
+  #     button:
+  #       enable : true
+  #       label : "Replay"
+  #       link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Featured past and upcoming events"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/promo/event-sample3.jpg"
+  title : "Live DJ set, a dancefloor in an atypical rock-based room"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Our Motto"
+  image : "images/logo-ctzn.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Smooth Touch"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Smooth Touch"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Get Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

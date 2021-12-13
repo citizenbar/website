@@ -1,0 +1,59 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.about_product.enable }}
+{{ with $data.homepage.about_product }}
+<section class="feature-list section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="heading">
+          <h2>{{ .title | markdownify }}</h2>
+        </div>
+      </div>
+      <div class="col-md-4">
+        {{ range .left_side }}
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-md-4">
+        {{ range .center_side }}
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+      <div class="col-md-4">
+          {{ range .right_side }}
+        <div class="mb-40 text-center">
+          <i class="d-inlin-block h2 mb-10 {{ .icon }}"></i>
+          <h4 class="font-weight-bold mb-2">{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | absURL }}" class="btn btn-main btn-main-sm">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div><!-- .container close -->
+</section>
+{{ end }}
+{{ end }}
