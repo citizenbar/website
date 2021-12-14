@@ -7,7 +7,7 @@ banner:
   button:
    enable : false
    label : "Voir les évènements"
-   link : "products"
+   link : "events"
 
 
 ############################# About Product #######################
@@ -43,7 +43,7 @@ about_product:
     button:
       enable : true
       label : "Events"
-      link : "Évèvenements"  # feature at the right of the image
+      link : "events"  # feature at the right of the image
 
   # items:
   #   # about product item loop
