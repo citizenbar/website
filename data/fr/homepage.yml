@@ -146,21 +146,23 @@ subscription:
 testimonial:
   enable : true
   title : "Témoignages"
+
+  # https://fr.restaurantguru.com/Citizen-Bar-Tours/reviews?bylang=1
   testimonial_item:
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Pauline M"
+      designation : "Google"
+      image : "images/avatars/pauline-m.png"
+      content : "... et puis le soir : merci au Citizen, à l'equipe de nous offrir ce lieu d'évasion musicale avec un accueil toujours chaleureux et des douceurs de cocktails. Un joli passage secret vers des ambiances électroniques de qualités et pleines de surprises."
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Vincent G"
+      designation : "Google"
+      image : "images/avatars/vincent-g.png"
+      content : "Petit bar dansant à l'ambiance electro qui vous donnera envie de bouger. L'endroit est plutôt cosy et la clientèle jeune et communicative. On peut y boire un verre tout en regardant la piste pour simplement discuter. Le service au bar est un peu long en soirée mais ça se comprends en étant seul. Les prix sont raisonnables."
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Catherine T"
+      designation : "Facebook"
+      image : "images/avatars/generic.svg"
+      content : "Un lieu singulier, chaleureux, une sorte de grotte accueillante, hors du temps et du business ambiant, une atmosphère onirique, une richesse et une diversité de sons, d'ambiances, les 2 personnages qui le font vivre sont de 'vrais gens', atypiques et authentiques. Unique à Tours."
