@@ -1,27 +1,25 @@
 ---
-title: "Apple Watch"
-date: 2019-10-17T11:22:16+06:00
+title: "Cocktail du jour"
+date: 2019-10-17
 images: 
-  - "images/showcase/showcase-1.png"
-  - "images/showcase/showcase-2.png"
-  - "images/showcase/showcase-3.png"
-  - "images/showcase/showcase-4.png"
+  - "images/products/cocktail-candy-mountain-1.jpg"
+  - "images/products/cocktail-red.jpg"
 
 # meta description
 description : "this is meta description"
 
 # product Price
-price: "30.00"
-discount_price: "25.00"
+price: "8.00"
+discount_price: "6.50"
 
 # product variation
-colors : ["black","white","gray"]
-sizes : ["small","medium","large"]
+ingredients : ["rhum","cointreau","surprise"]
+sizes : ["shooter","long drink",""]
 
 # button link if you don't want to use snipcart. empty link will not show button
-button_link: "#"
+button_link: ""
 
 draft: false
 ---
 
-Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking and health-oriented capabilities with integration with iOS and other Apple products and services.
+Un nouveau cocktail créé par vos serviteurs, une pointe d'acidité, des touches de fruits rouge pour la chaleur et toujours beaucoup de bonheur dans cette boisson

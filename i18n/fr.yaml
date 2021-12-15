@@ -9,3 +9,9 @@
   
 - id: "read_more"
   translation: "Lire plus"
+
+- id: "ingredients"
+  translation: "Ingrédients"
+  
+- id: "sizes"
+  translation: "Tailles"
