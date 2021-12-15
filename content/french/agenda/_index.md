@@ -1,6 +1,6 @@
 ---
-title: "Tous les évenements passés"
-description : "Liste des évèvements passés au Citizen Bar à voir et revoir en replay"
+title: "Tous les évènements à venir"
+description : "List of all upcoming events at the Citizen Bar "
 draft: false
 
 #
@@ -13,4 +13,6 @@ draft: false
 #   - themes/vex/layouts/replay/list.html
 #   - themes/vex/layouts/replay/single.html
 #
+
 ---
+

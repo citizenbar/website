@@ -3,23 +3,28 @@ title: "Contact"
 description : "this is a meta description"
 
 office:
-  title : "Central Office"
-  mobile : "0124857985320"
-  email : "demo@email.com"
-  location : "Dhaka, Bangladedsh"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  title :     "Citizen Bar"
+  mobile :    "+33(0)6 87 51 46 20"
+  email :     "contact@citizenbar.fr"
+  location :  "Paris, France"
+  content :   "
+Établi depuis bientôt 10 ans, ce nom circule dans le milieu de la scène musicale urbaine. 
+Un établissement dynamique et ouvert à tous.
+Plus qu’un bar nocturne, c’est un espace d’expression musicale unique.
+Il est dit qu’on y dispense de la musique tantôt pointue, tantôt élargie, dans une atmosphère authentique ; La grande qualité de la carte et le savoir faire des barmen donnant la touche finale à ce tableau atypique.
+Les artistes en rafollent et le public en redemande. 
+Pour de plus de plus de tourangeaux, il est un lieu d’échanges privilégiés entre amoureux de musique et de produits de qualités."
 
-# opennig hour
 opennig_hour:
   title : "Opening Hours"
   day_time:
-    - "Monday: 9:00 – 19:00"
-    - "Tuesday: 9:00 – 19:00"
-    - "Wednesday: 9:00 – 19:00"
-    - "Thursday: 9:00 – 19:00"
-    - "Friday: 9:00 – 19:00"
-    - "Saturday: 9:00 – 19:00"
-    - "sunday: 9:00 – 19:00"
+    - "Lundi: 18:00 – 02:00"
+    - "Mardi: 18:00 – 02:00"
+    - "Mercredi: 18:00 – 02:00"
+    - "Jeudi: 18:00 – 02:00"
+    - "Vendredi: 18:00 – 02:00"
+    - "Samedi: 18:00 – 02:00"
+    - "Dimanche: 18:00 – 02:00"
     
 draft: false
 ---

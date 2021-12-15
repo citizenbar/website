@@ -63,8 +63,8 @@ pre = "tf-ion-play text-red"
 weight = 2
 
 [[menu.main]]
-name = "Évènements"
-url = "events"
+name = "Agenda"
+url = "agenda"
 pre = "tf-ion-android-calendar"
 weight = 3
 

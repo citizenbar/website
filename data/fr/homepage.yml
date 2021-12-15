@@ -37,7 +37,7 @@ about_product:
   # feature at the right of the image
   right_side:
     # feature item loop
-  - title : "Future"
+  - title : "Futur"
     icon : "tf-ion-android-calendar"
     content : "Préparez-vous aux prochains évèvements concoctés par notre équipe d'experts"
     button:

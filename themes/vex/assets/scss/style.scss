@@ -5,11 +5,19 @@ $primary-font: 'Josefin Sans',
 sans-serif;
 $secondary-font: 'Droid Serif',
 serif;
-//$primary-color: #f9a743;
-$primary-color: #f96d43;
+$primary-color: #f9a743;
 //$primary-color: #0f94bd;
 $primary-background: #050505;
 $icon-font: 'themefisher-font' !important;
+
+$color-primary:       #192959;
+$color-primary-light: #3C74A6;
+$color-primary-dark:  #010326;
+$color-primary-darker:#06091b;
+$color-secondary:     #5ABFAD;
+$color-tertiary:      #BD6DBF;
+$color-white:         #F2F5F9;
+//$primary-color: $color-primary-light;
 
 /*--
     Common Css
@@ -22,9 +30,9 @@ body {
   font-size: 14px;
   font-weight: 300;
   line-height: 25px;
-  color: #d6e9fd;
-  background-color: $primary-background;
-  background-image: url("/images/bg-subtle-repeated-square-dark.png");
+  color: $color-white;
+  background-color: $color-primary-dark;
+  //background-image: url("/images/bg-subtle-repeated-square-dark.png");
   background-repeat: repeat;
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
@@ -105,8 +113,14 @@ a {
   background-image: url(../images/call-to-action.jpg);
 }
 
-.bg-primary-color {
-  background: $primary-color;
+.bg-promo {
+  background: $color-primary-darker;
+}
+
+.bg-header,
+.bg-footer {
+  background: $color-primary-darker;
+  //background: $color-tertiary;
 }
 
 .bg-opacity {
@@ -214,13 +228,12 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: $primary-color;
+  background-color: $color-secondary;
   //box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 
   &:hover,
   &:focus {
-    background-color: $primary-color;
     color: #fff;
   }
 }
@@ -250,19 +263,15 @@ a:active {
   font-size: 20px;
   font-weight: bold;
   padding: 10px 20px !important;
+  height: 50px;
+  vertical-align: middle;
 }
 
-.nav-item {
+.navbar-dark .navbar-nav .nav-link  {
+  color: $color-white;
   &:hover {
-    background-color: white
-  }
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
-
-  &:hover {
-    color: $primary-color;
+    color: $color-primary-darker;
+    background: $color-white;
   }
 }
 
@@ -306,7 +315,7 @@ a:active {
 }
 
 .badge-primary{
-  background-color: $primary-color;
+  background-color: $color-primary;
 }
 
 /*--
@@ -365,7 +374,7 @@ a:active {
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
-      background: $primary-color;
+      background: $color-secondary;
       padding: 5px 10px;
       border-radius: 40px;
       width: 50px;
@@ -392,7 +401,7 @@ a:active {
       font-size: 40px;
       display: inline-block;
       margin-bottom: 20px;
-      color: $primary-color;
+      color: $color-primary;
     }
 
     p {
@@ -511,18 +520,18 @@ s.price {
 
   li,
   a {
-    color: #282828;
+    color: $color-white;
     font-size: 18px;
   }
 }
 
 .form-control {
-  border: 1px solid #dadada;
+  border: 1px solid $color-white;
   border-radius: 35px;
   height: 50px;
 
   &:focus {
-    border-color: $primary-color;
+    border-color: $color-secondary;
     box-shadow: none;
   }
 
