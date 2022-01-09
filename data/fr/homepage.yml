@@ -106,11 +106,11 @@ features:
     # feature item loop
   - title : "Convivialité"
     icon : "tf-ion-chatbubbles"
-    content : "Vous vous sentez bien : les échanges, les interactions et la tolérance sont réciproques."
+    content : "Les échanges, les interactions et la tolérance sont réciproques et garants de Convivialité"
     # feature item loop
   - title : "Vision"
     icon : "tf-ion-eye"
-    content : "Toujours à la recherche, on test et on organise de quoi animer vos soirées Tourangelles"
+    content : "Toujours à la recherche, on teste et on organise de quoi animer vos soirées"
 
 
   # feature at the right of the image
@@ -118,7 +118,7 @@ features:
     # feature item loop
   - title : "Partage"
     icon : "tf-ion-android-open"
-    content : "Des émotions musicale, des rires, des discussions, des verres... 100% de Partage"
+    content : "Des émotions musicales, des rires, des discussions, des verres... 100% de Partage"
     # feature item loop
   - title : "Diversité"
     icon : "tf-ion-ios-people"
