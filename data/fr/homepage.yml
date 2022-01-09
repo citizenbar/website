@@ -102,11 +102,11 @@ features:
     # feature item loop
   - title : "Plaisir"
     icon : "tf-ion-android-checkmark-circle"
-    content : "On vous met toujours bien : pour qu'une visite au Citizen soit toujours synonyme de Plaisir"
+    content : "On vous met toujours bien, pour qu'une visite au Citizen soit toujours synonyme de Plaisir"
     # feature item loop
   - title : "Convivialité"
     icon : "tf-ion-chatbubbles"
-    content : "Vous vous sentez bien ici : les échanges, les interactions et la tolérance sont réciproques."
+    content : "Vous vous sentez bien : les échanges, les interactions et la tolérance sont réciproques."
     # feature item loop
   - title : "Vision"
     icon : "tf-ion-eye"
