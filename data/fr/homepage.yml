@@ -6,7 +6,7 @@ banner:
   image : "images/banner/musiclovers.jpg"
   button:
    enable : false
-   label : "Voir les évènements"
+   label : "Voir tous les évènements"
    link : "events"
 
 
@@ -42,8 +42,8 @@ about_product:
     content : "Préparez-vous aux prochains évèvements concoctés par notre équipe d'experts"
     button:
       enable : true
-      label : "Events"
-      link : "events"  # feature at the right of the image
+      label : "Agenda"
+      link : "agenda"  # feature at the right of the image
 
   # items:
   #   # about product item loop
@@ -74,13 +74,13 @@ about_product:
   #       link : "#"
 
 
-#################################### Products ########################
+#################################### Products ####################
 products:
   enable : true
-  title : "Une sélection d'évènements passés et à venir"
+  title : "Une sélection d'évènements phares"
 
 
-############################# promo ############################
+############################# promo ##############################
 promo:
   enable : true
   image : "images/promo/event-sample3.jpg"
@@ -100,37 +100,38 @@ features:
   # feature at the left of the image
   left_side:
     # feature item loop
-  - title : "Smooth Touch"
+  - title : "Plaisir"
     icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "On vous met toujours bien : pour qu'une visite au Citizen soit toujours synonyme de Plaisir"
     
     # feature item loop
-  - title : "Elegant Design"
+  - title : "Convivialité"
     icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Vous vous sentez bien ici : les échanges, les interactions et la tolérance sont réciproques."
+    content : ""
     
     # feature item loop
-  - title : "Easy Pricing"
+  - title : "Vision"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Toujours à la recherche, on test et on organise de quoi animer vos soirées Tourangelles"
 
 
   # feature at the right of the image
   right_side:
     # feature item loop
-  - title : "Smooth Touch"
+  - title : "Partage"
     icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Des émotions musicale, des rires, des discussions, des verres... Le Citizen c'est 100% de Partage"
 
     # feature item loop
-  - title : "Elegant Design"
+  - title : "Diversité"
     icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Humainement, musicalement nous incarnons la différence, la tolérance et l'ouverture. On ne s'ennuie jamais"
 
     # feature item loop
-  - title : "Easy Pricing"
+  - title : "Audace"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Ne pas faire comme tout le monde, oser la différence, la nouveauté et toujours surprendre"
 
 
 ################################## Subscription ###################

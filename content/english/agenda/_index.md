@@ -1,5 +1,5 @@
 ---
-title: "All past events"
+title: "All future events"
 description : "List of all upcoming events at the Citizen Bar "
 draft: false
 
@@ -13,6 +13,4 @@ draft: false
 #   - themes/vex/layouts/replay/list.html
 #   - themes/vex/layouts/replay/single.html
 #
-
 ---
-

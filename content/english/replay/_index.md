@@ -13,6 +13,4 @@ draft: false
 #   - themes/vex/layouts/replay/list.html
 #   - themes/vex/layouts/replay/single.html
 #
-
 ---
-
