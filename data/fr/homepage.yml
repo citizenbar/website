@@ -108,7 +108,6 @@ features:
   - title : "Convivialité"
     icon : "tf-ion-ios-bell-outline"
     content : "Vous vous sentez bien ici : les échanges, les interactions et la tolérance sont réciproques."
-    content : ""
     
     # feature item loop
   - title : "Vision"
