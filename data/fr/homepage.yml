@@ -101,17 +101,17 @@ features:
   left_side:
     # feature item loop
   - title : "Plaisir"
-    icon : "tf-ion-ios-alarm-outline"
+    icon : "tf-ion-android-checkmark-circle"
     content : "On vous met toujours bien : pour qu'une visite au Citizen soit toujours synonyme de Plaisir"
     
     # feature item loop
   - title : "Convivialité"
-    icon : "tf-ion-ios-bell-outline"
+    icon : "tf-ion-chatbubbles"
     content : "Vous vous sentez bien ici : les échanges, les interactions et la tolérance sont réciproques."
     
     # feature item loop
   - title : "Vision"
-    icon : "tf-ion-ios-cart-outline"
+    icon : "tf-ion-eye"
     content : "Toujours à la recherche, on test et on organise de quoi animer vos soirées Tourangelles"
 
 
@@ -119,17 +119,17 @@ features:
   right_side:
     # feature item loop
   - title : "Partage"
-    icon : "tf-ion-ios-alarm-outline"
+    icon : "tf-ion-android-open"
     content : "Des émotions musicale, des rires, des discussions, des verres... Le Citizen c'est 100% de Partage"
 
     # feature item loop
   - title : "Diversité"
-    icon : "tf-ion-ios-bell-outline"
+    icon : "tf-ion-ios-people"
     content : "Humainement, musicalement nous incarnons la différence, la tolérance et l'ouverture. On ne s'ennuie jamais"
 
     # feature item loop
   - title : "Audace"
-    icon : "tf-ion-ios-cart-outline"
+    icon : "tf-ion-jet"
     content : "Ne pas faire comme tout le monde, oser la différence, la nouveauté et toujours surprendre"
 
 
