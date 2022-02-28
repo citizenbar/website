@@ -3,6 +3,8 @@ baseurl = "https://www.citizenbar.fr/"
 title = "Citizen Bar"
 theme = "vex"
 
+buildFuture = true
+
 # Blog post excert
 summarylength = "20"
 
