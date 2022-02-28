@@ -4,7 +4,7 @@ title: Titre du header Matt Powa
 description: Description blublublublub
 featured: false
 images: 
-  - chemin/vers/image1.jpg
+  - static/images/events/2022-03-10/profile-pic-citizen.png
   - chemin/vers/image2.jpg
 #watch:
 ---
