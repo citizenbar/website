@@ -11,6 +11,10 @@ images:
 
 ## OPen platines
 
-LE DJ booth est a vous !
+LE DJ booth est a vous !2
 
-<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2Fcitizenbarfr%2Fflop-flop-sound-system-20220218-194614%2F" frameborder="0" ></iframe>
+AVANT
+
+<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fcitizenbarfr%2Fflop-flop-sound-system-20220218-194614%2F" frameborder="0" ></iframe>
+
+APRES
