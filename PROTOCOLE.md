@@ -8,10 +8,15 @@
 - Texte de description
 - Autorisation de diffusion du replay
 
-### Illustration
+### Créer le répertoire des images de l'event
 
 Créer le répertoire pour uploader les images : 
 * `static/images/events/yyyy-mm-dd/`
+
+### Uploader les images de l'event
+
+Mettre autant d'image que l'on veut :
+* `static/images/events/yyyy-mm-dd/image-x.jpg`
 
 ### Créer l'event
 
@@ -23,7 +28,7 @@ title: Titre
 description: Description
 featured: false
 images: 
-  - chemin/vers/image1.jpg
+  - chemin/vers/image1.jpg    
   - chemin/vers/image1.jpg
 #watch:
 ---
@@ -32,6 +37,5 @@ images:
 
 Description
 ```
-* `static/images/events/yyyy-mm-dd/image-x.jpg`
 
 ### Promouvoir sur buffer
