@@ -2,31 +2,19 @@
 
 ## Préparer un event
 
-## Demander aux artistes 
+### Demander aux artistes 
 
 - Images
 - Texte de description
 - Autorisation de diffusion du replay
 
-## Publier sur le site
+### Illustration
 
-* `content/english/events/xxxxxxxxxxxxxxxx.md` 
-```yaml
----
-date: YYYY-MM-DD
-title: Titre
-description: Description
-featured: false
-images: 
-  - chemin/vers/image1.jpg
-  - chemin/vers/image1.jpg
-#watch:
----
+Créer le répertoire pour uploader les images : 
+* `static/images/events/yyyy-mm-dd/`
 
-## Title
+### Créer l'event
 
-Description
-```
 * `content/french/events/xxxxxxxxxxxxxxxx.md`
 ```yaml
 ---
@@ -46,4 +34,4 @@ Description
 ```
 * `static/images/events/yyyy-mm-dd/image-x.jpg`
 
-## Promouvoir sur buffer
+### Promouvoir sur buffer
