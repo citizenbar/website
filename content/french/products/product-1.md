@@ -10,7 +10,7 @@ description : "this is meta description"
 
 # product Price
 price: "8.00"
-discount_price: "6.50"
+#discount_price: "6.50"
 
 # product variation
 ingredients : ["rhum","cointreau","surprise"]
