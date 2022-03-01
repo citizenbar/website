@@ -6,7 +6,7 @@ featured: false
 images: 
   - images/events/2022-03-02/GABARIT%20WEB%20%20Open%20Platines%20japan%20.jpg
  
-watch: true
+watch: flop-flop-sound-system-20220218-194614
 ---
 
 ## OPen platines
