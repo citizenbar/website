@@ -4,7 +4,7 @@ title: Open platines
 description: open platines dj mix live citizen bar 
 featured: false
 images: 
-  - static/images/events/2022-03-02/OpenPlatinejapan.jpg 
+  - static/images/events/2021-12-02/concert.jpg
  
 #watch:
 ---
