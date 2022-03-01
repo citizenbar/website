@@ -28,8 +28,9 @@ title: Titre
 description: Description
 featured: false
 images: 
-  - chemin/vers/image1.jpg    
-  - chemin/vers/image1.jpg
+  - static/images/events/yyyy-mm-dd/image-1.jpg    
+  - static/images/events/yyyy-mm-dd/image-2.jpg
+  - static/images/events/yyyy-mm-dd/image-3.jpg
 #watch:
 ---
 
