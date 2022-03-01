@@ -31,7 +31,9 @@ images:
   - static/images/events/yyyy-mm-dd/image-1.jpg    
   - static/images/events/yyyy-mm-dd/image-2.jpg
   - static/images/events/yyyy-mm-dd/image-3.jpg
-#watch:
+
+# false = agenda / true = replay
+watch: false 
 ---
 
 ## Titre
