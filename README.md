@@ -2,22 +2,21 @@
 
 # Tech Stack
 
-* OVH : registrar
-* Cloudflare : DNS and CDN
-
-* Github : source code repo
-* Source Hut : source code repo + Static site hosting
-* Vex : Hugo theme
-* Hugo : Static site generator
-* Netlify : Building + Static site hosting
-
-* So You Start : Bare metal hosting
-* Jitsi : Self-hosted online meeting
-* Peertube : Self-hosted video service (youtube-like) and RTMP endpoint (record streamed videos)
-* Airsonic : Self-hosted audio service (spotify-like)
-
-* Ilograph : SaaS application for architecture diagram
-* ShareThis : Module de partage
+Nom           | Description
+---           | ---
+OVH           |  registrar
+Cloudflare    |  DNS and CDN
+Github        |  source code repo
+Source Hut    |  source code repo + Static site hosting
+Vex           |  Hugo theme
+Hugo          |  Static site generator
+Netlify       |  Building + Static site hosting
+So You Start  |  Bare metal hosting
+Jitsi         |  Self-hosted online meeting
+Peertube      |  Self-hosted video service (youtube-like) and RTMP endpoint (record streamed videos)
+Airsonic      |  Self-hosted audio service (spotify-like)
+Ilograph      |  SaaS application for architecture diagram
+ShareThis     |  Module de partage
 
 # Build
 
