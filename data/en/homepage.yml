@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Major place in TOURS city for music lovers"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  content : "A place for cocktails and music lovers. Open from Tuesday to Saturday from 6pm to 2am, Antho and Hugo offer you tailor-made coktails while listening a new DJ set every night. With more than 220 musical performances per year, all musical styles and all people are represented in the most eclectic bar of Tours! Come in the first part of the evening for an intimate and friendly afterwork, continue in the second part of the evening with a dancefloor in a wild atmosphere in this old vaulted chapel."
   image : "images/banner/musiclovers.jpg"
   button:
    enable : false
