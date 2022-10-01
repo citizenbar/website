@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "L'incontournable à Tours"
-  content : "Un lieu pour les amoureux des coktails et de la musique. Ouvert du mardi au samedi de 18h à 02h, Antho et Hugo vous proposent des coktails sur mesures et sur la mesure : tous les soirs un DJ différent. Avec plus de 220 prestations musicales par an, tous les styles musicaux et toutes les personnes sont représentés dans le bar le plus éclectique de Tours ! Venez en première partie de soirée pour un afterwork intime et sympathique, poursuivez en seconde partie de soirée avec un dancefloor dans une ambiance endiablé dans cette ancienne chapelle voûtée."
+  content : "Un lieu pour les amoureux de coktails et de musique. Ouvert du mardi au samedi de 18h à 02h, Antho et Hugo vous proposent des coktails sur mesures et sur la mesure : tous les soirs un DJ différent. Avec plus de 220 prestations musicales par an, tous les styles musicaux et toutes les personnes sont représentés dans le bar le plus éclectique de Tours ! Venez en première partie de soirée pour un afterwork intime et sympathique, poursuivez en seconde partie de soirée avec un dancefloor dans une ambiance endiablé dans cette ancienne chapelle voûtée."
   image : "images/banner/musiclovers.jpg"
   button:
    enable : false
