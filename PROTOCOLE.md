@@ -20,7 +20,7 @@ Mettre autant d'image que l'on veut :
 
 ### Créer l'event
 
-* `content/french/events/xxxxxxxxxxxxxxxx.md`
+* `content/fr/events/xxxxxxxxxxxxxxxx.md`
 ```yaml
 ---
 date: YYYY-MM-DD

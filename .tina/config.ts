@@ -20,9 +20,9 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        label: "Events (FR)",
+        label: "events (FR)",
         name: "events__fr_",
-        path: "content/french/events",
+        path: "content/fr/events",
         format: 'md',
         fields: [
           // {
@@ -51,7 +51,7 @@ export default defineConfig({
       {
         label: "All Page (fr)",
         name: "all_page__fr_",
-        path: "content/french",
+        path: "content/fr",
         format: 'md',
         fields: [
           {

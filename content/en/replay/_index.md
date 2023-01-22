@@ -1,6 +1,6 @@
 ---
-title: "Tous les évenements passés"
-description : "Liste des évèvements passés au Citizen Bar à voir et revoir en replay"
+title: "All upcoming events"
+description : "List of all upcoming events at the Citizen Bar "
 draft: false
 
 #
@@ -8,8 +8,8 @@ draft: false
 # Replay are `events` with a `watch:` attribute
 #
 # See the following files and folders : 
-#   - content/english/events
-#   - content/french/events
+#   - content/en/events
+#   - content/fr/events
 #   - themes/vex/layouts/replay/list.html
 #   - themes/vex/layouts/replay/single.html
 #
