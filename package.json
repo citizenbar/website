@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/ad63f9b3-f236-456d-9d87-e7b495d96fb7/deploy-status)](https://app.netlify.com/sites/citizenbar/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citizenbar/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citizenbar/website/issues"
+  },
+  "homepage": "https://github.com/citizenbar/website#readme",
+  "dependencies": {
+    "@tinacms/cli": "^1.0.6",
+    "tinacms": "^1.1.3"
+  }
+}
