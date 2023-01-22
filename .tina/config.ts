@@ -20,52 +20,32 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        label: "Events (fr)",
+        label: "Events (FR)",
         name: "events__fr_",
         path: "content/french/events",
         format: 'md',
         fields: [
-          {
-            name: "body",
-            label: "Body of Document",
-            type: "rich-text",
-            description: "This is the markdown body",
-            isBody: true,
-          },
-          {
-            name: "date",
-            label: "date",
-            type: "datetime",
-          },
-          {
-            name: "title",
-            label: "title",
-            type: "string",
-          },
-          {
-            name: "description",
-            label: "description",
-            type: "string",
-          },
-          {
-            label: "Image Gallery",
-            name: "gallery",
-            type: "object",
-            list: true,
-            fields: [
-              { label: "Image", name: "image", type: "image" },
-            ],
-          },
-          {
-            name: "watch",
-            label: "Peertube video ID",
-            type: "string",
-          },
-          {
-            name: "featured",
-            label: "Display on Homepage ?",
-            type: "boolean",
-          },
+          // {
+          //   label: "Image Gallery",
+          //   name: "gallery",
+          //   type: "object",
+          //   list: true,
+          //   fields: [
+          //     { 
+          //       label: "Image", 
+          //       name: "image", 
+          //       type: "image" 
+          //     },
+          //   ],
+          // },
+          { name: "cover", label: "cover", type: "image",},
+          { name: "date", label: "date", type: "datetime",},
+          { name: "title", label: "title", type: "string",},
+          { name: "description", label: "description", type: "string",},
+          { name: "watch", label: "Peertube video ID", type: "string",},
+          { name: "featured", label: "Display on Homepage ?", type: "boolean",},
+          { name: "draft", label: "Draft ?", type: "boolean",},
+          { name: "body", label: "Body of Document", type: "rich-text", description: "This is the markdown body", isBody: true,},
         ],
       },
       {

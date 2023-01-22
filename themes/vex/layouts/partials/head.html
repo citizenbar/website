@@ -22,9 +22,8 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
-  {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
+  <meta property="og:image" content="{{ .Params.cover | absURL }}" />
+  
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics_async.html" . }}
 
