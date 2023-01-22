@@ -11,7 +11,7 @@
         </div>
 
         <div class="product-slider">
-          {{ range where (where .Site.RegularPages "Section" "events") "Params.featured" "!=" nil }}
+          {{ range where (where .Site.RegularPages "Section" "events") "Params.featured" "==" true }}
           <div class="block">
             <div class="gallery-overlay">
               <a href="{{ .Permalink }}" class="gallery-popup">
