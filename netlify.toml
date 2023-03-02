@@ -7,7 +7,7 @@ framework = "hugo"
   writeStats = true
 
 [build.environment]
-  HUGO_VERSION = "0.87.0"
+  HUGO_VERSION = "0.111.0"
   HUGO_BASEURL = "/"
 
 [[headers]]
