@@ -26,14 +26,11 @@ Mettre autant d'image que l'on veut :
 date: YYYY-MM-DD
 title: Titre
 description: Description
-featured: false
-images: 
-  - static/images/events/yyyy-mm-dd/image-1.jpg    
-  - static/images/events/yyyy-mm-dd/image-2.jpg
-  - static/images/events/yyyy-mm-dd/image-3.jpg
+cover: /images/events/yyyy-mm-dd/image-1.jpg    
 
-# false = agenda / true = replay
-watch: false 
+#draft: false
+#watch: dfgsdgdfgd 
+#featured: false
 ---
 
 ## Titre
