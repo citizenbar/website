@@ -1,8 +1,8 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "L'incontournable à Tours"
-  content : "Un lieu pour les amoureux de coktails et de musique. Ouvert du mardi au samedi de 18h à 02h, Antho et Hugo vous proposent des coktails sur mesures et sur la mesure : tous les soirs un DJ différent. Avec plus de 220 prestations musicales par an, tous les styles musicaux et toutes les personnes sont représentés dans le bar le plus éclectique de Tours ! Venez en première partie de soirée pour un afterwork intime et sympathique, poursuivez en seconde partie de soirée avec un dancefloor dans une ambiance endiablé dans cette ancienne chapelle voûtée."
+  title : "Un lieu unique à Tours"
+  content : "Situé à deux pas de la place Plumereau, le Citizen Bar vous accueille chaque jour de la semaine de 18h00 à 02h00 du matin avec une seule idée en tête : vous offrir un moment unique et conviviale. Que ce soit en afterwork ou en deuxième partie de soirée, chaque jour est ici une nouvelle page qui s'écrit. Avec plus de 250 prestations musicales par an, le bar vous invite ainsi à découvrir la crème de la scène DJ locale, tous styles confondus. Un éclectisme et une ouverture qui se reflètent dans une carte de cocktails généreuse, conçue par une équipe dynamique et accueillante."
   image : "images/banner/citizen-cross BLC.png"
   button:
    enable : false
