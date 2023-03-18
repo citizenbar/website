@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Un lieu unique à Tours"
   content : "Situé à deux pas de la place Plumereau, le Citizen Bar vous accueille chaque jour de la semaine de 18h00 à 02h00 du matin avec une seule idée en tête : vous offrir un moment unique et conviviale. Que ce soit en afterwork ou en deuxième partie de soirée, chaque jour est ici une nouvelle page qui s'écrit. Avec plus de 250 prestations musicales par an, le bar vous invite ainsi à découvrir la crème de la scène DJ locale, tous styles confondus. Un éclectisme et une ouverture qui se reflètent dans une carte de cocktails généreuse, conçue par une équipe dynamique et accueillante."
-  image : "images/banner/citizen-cross BLC.png"
+  image : "images/_citizen-logo_decompo_White.mov"
   button:
    enable : false
    label : "Voir tous les évènements"
