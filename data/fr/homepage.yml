@@ -19,7 +19,7 @@ about_product:
   left_side:
     # feature item loop
   - title : "Passé"
-    icon : "tf-ion-ios-recording"
+    #icon : "tf-ion-ios-recording"
     content : "Regarer encore et encore les enregistrements des sessions de vos artistes préférés"
     button:
       enable : true
@@ -28,7 +28,7 @@ about_product:
   center_side:
     # feature item loop
   - title : "Présent"
-    icon : "tf-ion-play"
+    #icon : "tf-ion-play"
     content : "Connectez-vous au direct et regarder les performances live"
     button:
       enable : true
@@ -38,7 +38,7 @@ about_product:
   right_side:
     # feature item loop
   - title : "Futur"
-    icon : "tf-ion-android-calendar"
+    #icon : "tf-ion-android-calendar"
     content : "Préparez-vous aux prochains évèvements concoctés par notre équipe d'experts"
     button:
       enable : true
