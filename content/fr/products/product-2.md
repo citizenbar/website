@@ -1,8 +1,8 @@
 ---
 title: "Saveurs du jour"
 date: 2019-10-17
-images: 
-  - "images/products/cocktail-pamp-pump-1.jpg"
+images: "images/products/cocktail-pamp-pump-1.jpg"
+  # - "images/products/cocktail-pamp-pump-1.jpg"
 
 # meta description
 description : "this is meta description"
