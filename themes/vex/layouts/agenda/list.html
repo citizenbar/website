@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h1 class="font-weight-bold">{{.Title}}</h1>
+        <h1 class="font-weight-bold">{{.Title}} !</h1>
       </div>
       {{ range where (where .Site.RegularPages.ByDate.Reverse "Section" "events") "Params.watch" "==" nil }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
