@@ -7,7 +7,7 @@
         <h1 class="font-weight-bold">{{.Title}} !!</h1>
       </div>
       {{ $today := (time now).Format "2006-01-02" }}
-      {{ range (where (where .Site.RegularPages "Section" "events") "Params.date" ">=" "2023-03-23").Reverse }}
+      {{ range ((where (where .Site.RegularPages "Section" "events") "Params.date" | time.Format "2006-01-02") ">=" $today).Reverse }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="block">
           <div class="gallery-overlay">
@@ -19,6 +19,7 @@
         </div>
         <div class="product-info">
           <p classe="date">
+            <!-- {{.Params.date}} -->
             {{.Params.date | time.Format ":date_long"}}
           </p>
           <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
