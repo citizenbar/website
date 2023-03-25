@@ -77,8 +77,7 @@ about_product:
 #################################### Products ####################
 products:
   enable : true
-  title : "Une sélection d'évènements phares"
-
+  title : "Une sélection de produits phares"
 
 ############################# promo ##############################
 promo:

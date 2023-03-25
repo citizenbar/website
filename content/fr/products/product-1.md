@@ -19,6 +19,8 @@ sizes : ["shooter","long drink",""]
 # button link if you don't want to use snipcart. empty link will not show button
 button_link: ""
 
+featured: true
+
 draft: false
 ---
 
