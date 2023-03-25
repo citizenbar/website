@@ -55,19 +55,19 @@ link = "plugins/slick/slick.min.js"
 [[menu.main]]
 name   = "Replay"
 url    = "replay"
-pre    = "tf-ion-ios-recording"
+#pre    = "tf-ion-ios-recording"
 weight = 2
 
 [[menu.main]]
 name   = "Live"
 url    = "https://mixcloud.com/live/citizenbarfr"
-pre    = "tf-ion-play text-red"
+#pre    = "tf-ion-play text-red"
 weight = 3
 
 [[menu.main]]
 name   = "Agenda"
 url    = "agenda"
-pre    = "tf-ion-android-calendar"
+#pre    = "tf-ion-android-calendar"
 weight = 4
 
 # [[menu.main]]
@@ -83,13 +83,13 @@ weight = 4
 [[menu.main]]
 name   = "Produits"
 url    = "products"
-pre    = "tf-ion-wineglass"
+#pre    = "tf-ion-wineglass"
 weight = 7
 
 [[menu.main]]
 name   = "Contact"
 url    = "contact"
-pre    = "tf-envelope2"
+#pre    = "tf-envelope2"
 weight = 8
 
 # footer menu

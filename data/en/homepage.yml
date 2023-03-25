@@ -19,7 +19,7 @@ about_product:
   left_side:
     # feature item loop
   - title : "Past"
-    icon : "tf-ion-ios-recording"
+    #icon : "tf-ion-ios-recording"
     content : "Binge watch all our recording of previous artists sessions"
     button:
       enable : true
@@ -28,7 +28,7 @@ about_product:
   center_side:
     # feature item loop
   - title : "Present"
-    icon : "tf-ion-play"
+    #icon : "tf-ion-play"
     content : "Head to our live streaming session. Right Now !"
     button:
       enable : true
@@ -38,7 +38,7 @@ about_product:
   right_side:
     # feature item loop
   - title : "Future"
-    icon : "tf-ion-android-calendar"
+    #icon : "tf-ion-android-calendar"
     content : "Get to know the next fantastic events prepared for you by our team of experts"
     button:
       enable : true
