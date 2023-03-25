@@ -24,7 +24,7 @@
                 {{ if eq $translation.Lang .Lang }}
                 {{ $selected := false }}
                   {{ if ne $pageLang .Lang}}
-                    <a class="nav-link tf-ion-flag" href="{{ $translation.Permalink }}">({{ lower .LanguageName }})</a>
+                    <a class="nav-link" href="{{ $translation.Permalink }}">({{ lower .LanguageName }})</a>
                   {{ end }}
                 {{ end }}
               {{ end }}

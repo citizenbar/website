@@ -101,17 +101,17 @@ features:
   left_side:
     # feature item loop
   - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
+    #icon : "tf-ion-ios-alarm-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
   - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
+    #icon : "tf-ion-ios-bell-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
   - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
+    #icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
 
@@ -119,17 +119,17 @@ features:
   right_side:
     # feature item loop
   - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
+    #icon : "tf-ion-ios-alarm-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
   - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
+    #icon : "tf-ion-ios-bell-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
   - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
+    #icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
 

@@ -100,15 +100,15 @@ features:
   left_side:
     # feature item loop
   - title : "Plaisir"
-    icon : "tf-ion-android-checkmark-circle"
+    #icon : "tf-ion-android-checkmark-circle"
     content : "On vous met toujours bien, pour qu'une visite au Citizen soit toujours synonyme de Plaisir"
     # feature item loop
   - title : "Convivialité"
-    icon : "tf-ion-chatbubbles"
+    #icon : "tf-ion-chatbubbles"
     content : "Les échanges, les interactions et la tolérance sont réciproques et garants de Convivialité"
     # feature item loop
   - title : "Vision"
-    icon : "tf-ion-eye"
+    #icon : "tf-ion-eye"
     content : "Toujours à la recherche, on teste et on organise de quoi animer vos soirées"
 
 
@@ -116,15 +116,15 @@ features:
   right_side:
     # feature item loop
   - title : "Partage"
-    icon : "tf-ion-android-open"
+    #icon : "tf-ion-android-open"
     content : "Des émotions musicales, des rires, des discussions, des verres... 100% de Partage"
     # feature item loop
   - title : "Diversité"
-    icon : "tf-ion-ios-people"
+    #icon : "tf-ion-ios-people"
     content : "Humainement, musicalement nous incarnons la différence, la tolérance et l'ouverture"
     # feature item loop
   - title : "Audace"
-    icon : "tf-ion-ios-flask"
+    #icon : "tf-ion-ios-flask"
     content : "Ne pas faire comme tout le monde, oser la différence, la nouveauté et vous surprendre"
 
 
