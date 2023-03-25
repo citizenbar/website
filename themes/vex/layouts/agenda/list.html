@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h1 class="font-weight-bold">{{.Title}} !!</h1>
+        <h1 class="font-weight-bold">{{.Title}}</h1>
       </div>
       {{ range (where (where .Site.RegularPages "Section" "events") "Params.watch" "=" nil).Reverse }}
         {{ $event_date := .Params.date }}
@@ -21,7 +21,6 @@
           </div>
           <div class="product-info">
             <p classe="date">
-              {{.Params.date}}
               {{.Params.date | time.Format ":date_long"}}
             </p>
             <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>

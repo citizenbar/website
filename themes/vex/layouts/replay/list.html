@@ -7,6 +7,9 @@
         <h1 class="font-weight-bold">{{.Title}}</h1>
       </div>
       {{ range where (where .Site.RegularPages "Section" "events") "Params.watch" "!=" nil }}
+        {{ $event_date := .Params.date }}
+        {{ $now := time.Now }}
+        {{ if $event_date.Before $now }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="block">
           <div class="gallery-overlay">
@@ -25,6 +28,7 @@
           </p>
         </div>
       </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>
