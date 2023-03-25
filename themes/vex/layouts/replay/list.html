@@ -9,7 +9,7 @@
       {{ range where (where .Site.RegularPages "Section" "events") "Params.watch" "!=" nil }}
         {{ $event_date := .Params.date }}
         {{ $now := time.Now }}
-        {{ if $now.after $event_date }}
+        {{ if $now.After $event_date }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="block">
           <div class="gallery-overlay">
