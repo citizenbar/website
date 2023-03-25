@@ -7,7 +7,6 @@
         <h1 class="font-weight-bold">{{.Title}} !!</h1>
       </div>
       {{ $today := (time now).Format "2006-01-02" }}
-      {{ /* range (where (where .Site.RegularPages "Section" "events") "Params.date" ">=" $today).Reverse */ }}
       {{ range (where (where .Site.RegularPages "Section" "events") "Params.watch" "!=" nil).Reverse }}
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="block">
