@@ -19,7 +19,7 @@
         </div>
         <div class="product-info">
           <p classe="date">
-            <!-- {{.Params.date}} -->
+            {{.Params.date}}
             {{.Params.date | time.Format ":date_long"}}
           </p>
           <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
