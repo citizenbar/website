@@ -77,7 +77,7 @@ about_product:
 #################################### Products ####################
 products:
   enable : true
-  title : "Une sélection de produits phares"
+  title : "La sélection du moment"
 
 ############################# promo ##############################
 promo:
