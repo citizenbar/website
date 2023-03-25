@@ -6,25 +6,28 @@
       <div class="col-12 text-center mb-5">
         <h1 class="font-weight-bold">{{.Title}} !!</h1>
       </div>
-      {{ $today := (time now).Format "2006-01-02" }}
       {{ range (where (where .Site.RegularPages "Section" "events") "Params.watch" "=" nil).Reverse }}
-      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-        <div class="block">
-          <div class="gallery-overlay">
-            <a href="{{ .Permalink }}" class="gallery-popup">
-              <i class="tf-ion-plus-round"></i>
-            </a>
+        {{ $event_date := .Params.date }}
+        {{ $now := time.Now }}
+        {{ if $event_date.After $now }}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="block">
+            <div class="gallery-overlay">
+              <a href="{{ .Permalink }}" class="gallery-popup">
+                <i class="tf-ion-plus-round"></i>
+              </a>
+            </div>
+            <img class="img-fluid" src="{{.Params.cover|absURL}}" alt="{{.Params.date | time.Format ":date_long" }} {{.Title}}">
           </div>
-          <img class="img-fluid" src="{{.Params.cover|absURL}}" alt="{{.Params.date | time.Format ":date_long" }} {{.Title}}">
+          <div class="product-info">
+            <p classe="date">
+              {{.Params.date}}
+              {{.Params.date | time.Format ":date_long"}}
+            </p>
+            <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
+          </div>
         </div>
-        <div class="product-info">
-          <p classe="date">
-            {{.Params.date}}
-            {{.Params.date | time.Format ":date_long"}}
-          </p>
-          <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.Title}}</a></h4>
-        </div>
-      </div>
+        {{ end }}
       {{ end }}
     </div>
   </div>
