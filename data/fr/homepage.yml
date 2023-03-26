@@ -82,7 +82,7 @@ products:
 ############################# promo ##############################
 promo:
   enable : true
-  image : "images/promo/event-sample3.webp"
+  image : "images/promo/event-sample3-resized.webp"
   title : "Des artistes en live, une piste de dance troglodyte atypique. Bienvenue au Citizen Bar !"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.

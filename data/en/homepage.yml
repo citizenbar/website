@@ -3,7 +3,7 @@ banner:
   enable : true
   title : "Major place in TOURS city for music lovers"
   content : "A place for cocktails and music lovers. Open from Tuesday to Saturday from 6pm to 2am, Antho and Hugo offer you tailor-made coktails while listening a new DJ set every night. With more than 220 musical performances per year, all musical styles and all people are represented in the most eclectic bar of Tours! Come in the first part of the evening for an intimate and friendly afterwork, continue in the second part of the evening with a dancefloor in a wild atmosphere in this old vaulted chapel."
-  image : "images/banner/musiclovers.webp"
+  image : "images/banner/CTZN_decomposition_white.gif"
   button:
    enable : false
    label : "All events"
@@ -83,7 +83,7 @@ products:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/promo/event-sample3.webp"
+  image : "images/promo/event-sample3-resized.webp"
   title : "Live DJ set, a dancefloor in an atypical rock-based room"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
