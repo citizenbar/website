@@ -1,5 +1,5 @@
 ---
-cover: /images/events/2022-03-02/OpenPlatinejapan.jpg
+cover: /images/events/2022-03-02/OpenPlatinejapan.webp
 date: '2023-01-27T23:00:00.000Z'
 title: My New Event Name
 description: API endpoint to interact with EPOS from a partner consumer application

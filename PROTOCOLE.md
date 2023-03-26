@@ -16,7 +16,7 @@ Créer le répertoire pour uploader les images :
 ### Uploader les images de l'event
 
 Mettre autant d'image que l'on veut :
-* `static/images/events/yyyy-mm-dd/image-x.jpg`
+* `static/images/events/yyyy-mm-dd/image-x.webp`
 
 ### Créer l'event
 
@@ -26,7 +26,7 @@ Mettre autant d'image que l'on veut :
 date: YYYY-MM-DD
 title: Titre
 description: Description
-cover: /images/events/yyyy-mm-dd/image-1.jpg    
+cover: /images/events/yyyy-mm-dd/image-1.webp    
 
 #draft: false
 #watch: dfgsdgdfgd 

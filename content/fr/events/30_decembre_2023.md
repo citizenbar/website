@@ -1,6 +1,6 @@
 ---
 date: '2023-12-30'
-cover: /images/events/2022-03-02/OpenPlatinejapan.jpg
+cover: /images/events/2022-03-02/OpenPlatinejapan.webp
 title: Fake Future Event
 description: API endpoint to interact with EPOS from a partner consumer application
 watch: cbd02198-503e-47e4-9c50-c428eb80eef5

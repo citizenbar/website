@@ -2,10 +2,10 @@
 title: "Cocktail du jour"
 date: 2019-10-17
 #images:
-  # - "images/products/cocktail-candy-mountain-1.jpg"
-  # - "images/products/cocktail-red.jpg"
+  # - "images/products/cocktail-candy-mountain-1.webp"
+  # - "images/products/cocktail-red.webp"
 
-cover: "/images/products/cocktail-candy-mountain-1.jpg"
+cover: "/images/products/cocktail-candy-mountain-1.webp"
 
 # meta description
 description : "this is meta description"

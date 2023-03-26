@@ -5,10 +5,10 @@ description : "this is meta description"
 
 # largeur: 375px / hauteur: 440px
 images: 
-  - "images/events/2019-10-17/image-1.jpg"
+  - "images/events/2019-10-17/image-1.webp"
   - "images/events/2019-10-17/image-2.png"
   - "images/events/2019-10-17/image-4.webp"
-  - "images/events/2019-10-17/image-3.jpg"
+  - "images/events/2019-10-17/image-3.webp"
 
 #watch: cbd02198-503e-47e4-9c50-c428eb80eef5
 featured: true
