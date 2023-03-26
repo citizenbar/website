@@ -16,12 +16,9 @@
 					TODO : ajouter un test si image (gif, png, webp...) ou video (mp4, webm, ...) 
 				<img class="img-fluid" src="{{ .image | absURL }}" alt="">
 				-->
-                <div class="video-wrap">
-                    <video id="slide-video" preload="auto" loop muted>
-                        <source src="{{ .image | absURL }}" type='video/webm' />
-                    </video>
-                    <div class="video-overlay" style="background-color: rgba(0,0,0,0.2);"></div>
-                </div>
+				<video id="banner-video" preload="auto" width="100%" height="auto" loop muted>
+					<source src="{{ .image | absURL }}" type='video/webm' width="100%" height="auto" />
+				</video>
 			</div>
 			<div class="col-md-6 align-self-center text-center text-md-left">
 				<div class="block">
